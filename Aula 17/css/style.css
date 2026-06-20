@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(211, 196, 156);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+h1{
+color: rgb(109, 81, 3);
+font-size: 35px;
+text-align: center;
+}
+
+h2{
+    color: rgb(109, 81, 3);
+}
+
+.card{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin: 50px auto; /*espaçamento externo*/
+    padding: 30px; /*espaçamento interno*/
+    border: 2px solid black;
+}
+
+#texto{
+    font-size: 20px;
+}
+
+#texto02{
+    font-size: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form action="#">
+        <label for="nome">Nome </label>
+        <input type="text" name="nome" id="nome" 
+        placeholder="Digite seu nome completo"
+        required><!--Torna obrigatório o preenchimento desse campo-->
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"
+        placeholder="exemplo@email.com"
+        required>
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha"
+        placeholder="Senha com 8 caracteres" 
+        minlength="8" maxlength="12"><!--Define um numero minimo de caracteres e o maximo-->
+        <br><br>
+        <label for="telefone">telefone</label>
+        <input type="tel" name="telefone" id="telefone"
+        placeholder="(+55) 99999-9999">
+        <br><br>
+        <label for="data">Data de Nascimento</label>
+        <input type="date" name="data" id="data">
+        <br><br>
+        <p>Escolha seu turno:</p>
+        <br>
+        <input type="radio" name="turno" id="manhã"><!--O radio permite exolher apenas uma das opções-->>
+        <label for="manhã">Manhã</label>
+        <input type="radio" name="turno" id="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" name="turno" id="noite">
+        <label for="noite">Noite</label>
+        <br><br>
+        <input type="checkbox" name="materia" id="quimica"
+        value="quimica"><!--A checkbox permite escolher mais de uma opção-->>
+        <label for="quimica">quimica</label>
+        <input type="checkbox" name="materia" id="matematica"
+        value="matematica">
+        <label for="matematica">matematica</label>
+    </form>
+</body>
+</html>
